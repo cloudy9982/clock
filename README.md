@@ -55,7 +55,7 @@
 \x1b[8;m 消隱
 \x1b[0;m 重置
 
-##### ＰＳ：如果你用\033宣告轉義序列的開始也是可以代替\x1b，因此下圖中Blink我用\033舉例，但是我習慣用\x1b所以後面都用\x1b
+##### ＰＳ：如果你用\033宣告轉義序列的開始，也是可以代替\x1b，因此下圖中Blink我用\033舉例，但是我習慣用\x1b所以後面都用\x1b
 
 ![color](https://scontent.frmq2-2.fna.fbcdn.net/v/t1.15752-9/144275469_2876524729297980_3632800823634370331_n.png?_nc_cat=107&ccb=2&_nc_sid=ae9488&_nc_ohc=rcz1tGezLpUAX9ghd_S&_nc_ht=scontent.frmq2-2.fna&oh=5e6dcee91b14bea21d246dd588c474f7&oe=603FBC82)
 
