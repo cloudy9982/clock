@@ -21,6 +21,7 @@
 準確來說，`\x1b[0;m`（重置）是CSI標準的格式，剛才舉例的格式中`\x1b`和`0`是SGR (Select Graphic Rendition) parameters
 
 背景/字體 顏色 
+
 40: 黑  30: 黑
 41: 紅  31: 紅
 42: 綠  32: 綠
