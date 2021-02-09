@@ -1,8 +1,8 @@
 # C++ clock implement
 
-只是個簡易版的鬧鐘，有興趣可以實做看看，因為難度很簡單，所以身為初心者也可以推給剛入火坑（？）的程式初學者們
+只是個簡易版的鬧鐘，有興趣可以實做看看，因為難度很簡單，所以身為初心者也可以推給~~剛入火坑的~~程式初學者們
 
-### 顏色設置（ＡＮＳＩ)
+### __顏色設置（ＡＮＳＩ)__
 
 突然覺得程式結果都沒顏色是不是太無趣，所以就找了些有趣的東西來為我的程式添加色彩（？
 
@@ -55,11 +55,11 @@
 \x1b[8;m 消隱
 \x1b[0;m 重置
 
-##### ＰＳ：如果你用\033宣告轉義序列的開始，也是可以代替\x1b，因此下圖中Blink我用\033舉例，但是我習慣用\x1b所以後面都用\x1b
+ **如果你用\033宣告轉義序列的開始也是可以代替\x1b，因此下圖中Blink我用\033舉例，但是我習慣用\x1b所以後面都用\x1b**
 
 ![color](https://scontent.frmq2-2.fna.fbcdn.net/v/t1.15752-9/144275469_2876524729297980_3632800823634370331_n.png?_nc_cat=107&ccb=2&_nc_sid=ae9488&_nc_ohc=rcz1tGezLpUAX9ghd_S&_nc_ht=scontent.frmq2-2.fna&oh=5e6dcee91b14bea21d246dd588c474f7&oe=603FBC82)
 
-### implement
+### __implement__
 
 先顯示目前時間，然後輸入時間
 
@@ -73,7 +73,9 @@
 
 ![third](https://scontent.frmq2-1.fna.fbcdn.net/v/t1.15752-9/145678898_792457034674744_5544496261822610737_n.png?_nc_cat=105&ccb=2&_nc_sid=ae9488&_nc_ohc=EJfiXRO7fOgAX_VDX6D&_nc_oc=AQnyk_YZB156m0JJ5XmJTTE-jA1K060BjFG1W3O-4YDTgX3lKg7nCuJHXCch8Zt9SOIpEwaZL8h9Fvii4v4b_kHG&_nc_ht=scontent.frmq2-1.fna&oh=7fdaac1b30b99547caf5ac79bb690cb4&oe=604086BF)
 
-而你選1的話就會猜謎或是土味情話，然後就會結束
+而你選1的話就會猜謎或是土味情話  
+
+然後就會結束
 
 ![forth](https://scontent.frmq2-2.fna.fbcdn.net/v/t1.15752-9/144153130_137416731538989_2596087400619191794_n.png?_nc_cat=104&ccb=2&_nc_sid=ae9488&_nc_ohc=dB29uJ4qWxMAX_ZxqJS&_nc_ht=scontent.frmq2-2.fna&oh=d079d8045875ba882316d59cfc3614fb&oe=6041BCC2)
 
